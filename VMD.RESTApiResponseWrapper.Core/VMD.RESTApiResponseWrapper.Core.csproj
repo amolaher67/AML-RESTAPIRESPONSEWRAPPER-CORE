@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Vincent Maverick Durano</Authors>
+    <Description>A REST API global exception handler and response wrapper for ASP.NET Core APIs.</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/proudmonkey/RESTApiResponseWrapper.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/proudmonkey/RESTApiResponseWrapper.Core</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Version>1.0.3</Version>
+    <PackageTags>REST,API, WebAPI2, ASP.NETCore,Middleware, ResponseWrapper</PackageTags>
+    <PackageReleaseNotes>- enable swagger support
+- minor code enhancements</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
